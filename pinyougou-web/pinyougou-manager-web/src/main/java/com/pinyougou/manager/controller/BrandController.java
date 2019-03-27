@@ -16,6 +16,7 @@ public class BrandController {
     @Reference(timeout = 10000)
     private BrandService brandService;
     /** 查询全部品牌 */
+
     @GetMapping("/brand/findAll")
     public List<Brand> findAll(){
         return brandService.findAll();
