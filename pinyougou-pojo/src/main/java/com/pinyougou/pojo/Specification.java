@@ -25,8 +25,8 @@ public class Specification implements Serializable{
     private String specName;
     /** 规格属性集合 */
 	@Transient
-    private List<SpecificationOption> specificationOptions; 
-    
+    private List<SpecificationOption> specificationOptions;
+
     /** setter and getter method */
     public Long getId() {
         return id;
